@@ -25,10 +25,9 @@ a compliance check first. Boris's own code is private. The gate pattern is open 
 - 🎙️ A brand-voice review step ("Keel") checks the tone of posts before they reach me.
 - 📲 A morning briefing and approvals on my phone.
 
-## The honest part
-One outreach agent once sent emails signed by people who don't exist. We didn't
-hide it — we built a hard compliance gate so nothing ships unchecked, and
-open-sourced the pattern.
+## Why a gate
+Drafting is cheap and can be thrown away. Sending can't be undone. So the agent
+drafts freely, and a separate step checks and approves before anything leaves.
 
 **Autonomous AI should act — but never without a gate.**
 
