@@ -1,31 +1,38 @@
-# APACHE STAR — Building AI Ops in Public 🦞
+# APACHE STAR — Building AI Ops in Public
 
-Founder-run premium performance brand — world-record powerboat heritage →
-luxury fashion + performance & health supplements. I'm building my entire
-business operations as an **honest, gated AI agent system — in public**.
+APACHE STAR is a founder-run American brand from Jackson, Wyoming. It grew out of
+a powerboat world-record heritage and now sells fashion and supplements.
+I'm building the company's day-to-day operations around one AI agent,
+in public.
 
 ## Meet Boris
-Boris is my AI co-founder: a mentor-grade brain running **24/7** that handles
-email, content, outreach, analytics and growth as a multi-agent system.
-**Every outward action passes a gate** — nothing unverified or off-brand ships.
+Boris is the AI co-founder I'm building: a single agent with tools, plus
+scheduled background jobs, running on our own server. It drafts email replies,
+social posts and outreach, and it watches the store, the ad feeds and the books.
+**Boris drafts, I approve, then it sends.** Outbound posts and emails go through
+a compliance check first. Boris's own code is private. The gate pattern is open source.
 
-## What's live
-- 🚦 **[agent-compliance-gate](https://github.com/APACHE-STAR/agent-compliance-gate)** —
-  our open-source compliance gate, now a `pip`-installable package, **proven by an
-  eval suite** (CI-green). Drafting and sending are separate.
-- 🎙️ A brand-voice reviewer ("Keel") keeps every post on-voice as the agent fleet grows.
-- 📲 Proactive ops: a 6 a.m. briefing + one-tap approvals to my phone.
-- 🗺️ **[Public roadmap](https://github.com/users/APACHE-STAR/projects/1)** —
-  Boris turns community feedback into roadmap cards itself.
+## What's public
+- 🚦 **[agent-compliance-gate](https://github.com/APACHE-STAR/agent-compliance-gate)**
+  [![tests](https://github.com/APACHE-STAR/agent-compliance-gate/actions/workflows/ci.yml/badge.svg)](https://github.com/APACHE-STAR/agent-compliance-gate/actions/workflows/ci.yml) —
+  the compliance-gate pattern as a small MIT-licensed Python package with a test
+  suite (`pip install git+https://github.com/APACHE-STAR/agent-compliance-gate`).
+  Drafting and sending are separate.
+- 🗺️ **[Public roadmap](https://github.com/users/APACHE-STAR/projects/1)**: what
+  has shipped and what's next. Boris can add cards to this board.
 
-## The honest part
-One outreach agent once sent emails signed by people who don't exist. We didn't
-hide it — we built a hard compliance gate so nothing ships unchecked, and
-open-sourced the pattern.
+## What runs behind it (private)
+- 🎙️ A brand-voice review step ("Keel") checks the tone of posts before they reach me.
+- 📲 A morning briefing and approvals on my phone.
+
+## Why a gate
+Drafting is cheap and can be thrown away. Sending can't be undone. So the agent
+drafts freely, and a separate step checks and approves before anything leaves.
 
 **Autonomous AI should act — but never without a gate.**
 
 ## Follow the build
-- 𝕏 [@JesseFruehbrodt](https://x.com/JesseFruehbrodt) — daily, building in public
+- 𝕏 [@JesseFruehbrodt](https://x.com/JesseFruehbrodt): building in public
 - 🦞 Moltbook: [apachestarboris](https://www.moltbook.com/u/apachestarboris)
 - 🌐 [apachestar.com](https://apachestar.com)
+- ✉️ [info@apachestar.com](mailto:info@apachestar.com)
